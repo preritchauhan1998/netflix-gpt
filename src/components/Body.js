@@ -22,7 +22,6 @@ const Body = () => {
   return (
     <div>
         <RouterProvider router={appRouter}>
-            
         </RouterProvider>
     </div>
   )

@@ -6,6 +6,11 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OTk1ZTYwM2EyYTM2YWM0M2EzYzE5ODI1NzM5MzAyNCIsInN1YiI6IjY1YmRmNzAzOTAyMDEyMDE3Y2NhYWJhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.z29EPT7OiX6iP9kuLFLxdBJAo5itplxdHJc2Nsz8egY'
+      Authorization: 'Bearer' + process.env.REACT_APP_TMBD_KEY
     }
   };
+
+  export const imgUrl="https://image.tmdb.org/t/p/w780/"
+  export const SUPPORTED_LANGUAGES=[{identifier:"en", name:"English"},{identifier:"hindi", name:"Hindi"}]
+  export const OPENAI_KEY="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"
+  // export const OPENAI_KEY="sk-a58tzHkig6M7GFNzlLnQT3BLbkFJsfWKGiFB6x42YDlKIBsS"

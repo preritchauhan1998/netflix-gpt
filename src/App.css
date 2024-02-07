@@ -6,3 +6,11 @@
     transform: translate(-50%,-50%);
     background-color: rgba(0, 0, 0, 0.623);
 }
+::-webkit-scrollbar{
+    display:none;
+}
+.searchListWrapper{}
+.searchListWrapper .movieList > div{
+    width: 100px;
+    height: auto;
+}
